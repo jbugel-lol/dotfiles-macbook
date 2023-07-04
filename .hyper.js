@@ -101,7 +101,7 @@ module.exports = {
     // Supported Options:
     //  1. 'SOUND' -> Enables the bell as a sound
     //  2. false: turns off the bell
-    bell: "SOUND",
+    bell: false,
     // An absolute file path to a sound file on the machine.
     // bellSoundURL: '/path/to/sound/file',
     // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
@@ -122,7 +122,7 @@ module.exports = {
     // todo: does not pick up config changes automatically, need to restart terminal :/
     webLinksActivationKey: "",
     // if `false` (without backticks and without quotes), Hyper will use ligatures provided by some fonts
-    disableLigatures: true,
+    disableLigatures: false,
     // set to true to disable auto updates
     disableAutoUpdates: false,
     // set to true to enable screen reading apps (like NVDA) to read the contents of the terminal
